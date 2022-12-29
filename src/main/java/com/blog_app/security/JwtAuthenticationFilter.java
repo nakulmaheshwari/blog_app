@@ -36,6 +36,8 @@ public class JwtAuthenticationFilter extends OncePerRequestFilter {
 
 //		1. get
 //		token
+//		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
+        //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
 
         String requestToken = request.getHeader("Authorization");
         Enumeration<String> headerNames = request.getHeaderNames();
